@@ -4,11 +4,9 @@ using namespace std;
 int main()
 {
 
-
 	//print anything in c++ program
 
 	cout<<"Hello world"<< " "<<"My name is chayan"<<endl;
-
 
 	// Vatiable
 
