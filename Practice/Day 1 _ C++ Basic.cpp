@@ -3,18 +3,13 @@ using namespace std;
 
 int main()
 {
-	
+
 
 	//print anything in c++ program
 
 	cout<<"Hello world"<< " "<<"My name is chayan"<<endl;
 
-	// Take user input
 
-	int kk;
-
-	cin>>kk;
-	
 	// Vatiable
 
 	int a;
@@ -50,7 +45,6 @@ int main()
 	char t='b';
 	// Type casting
 	cout<< (int)t << endl;
-
 
 
 }
