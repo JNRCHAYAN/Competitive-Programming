@@ -36,6 +36,10 @@ int main()
      long long int callong = rrr*iii;
     cout << callong << endl;
     
+    // ** Not calculate anything using double or float beacuse the funtion overflow Must be get more knowledge of this topic
+
+    
+    
 
 
 
