@@ -30,15 +30,21 @@ int main()
      long int calo = rr*ii;
     cout << calo << endl;
 
+        // oberflow calculate using Long int 1LL function use for convert long long int
+      int rrrr = 100000;
+      int iiii = 100000;
+    cout << rrrr * 1LL * iiii << endl;
+
      // oberflow calculate using Long Long int
      long long int rrr = 100000;
      long long int iii = 100000;
      long long int callong = rrr*iii;
+
     cout << callong << endl;
     
     // ** Not calculate anything using double or float beacuse the funtion overflow Must be get more knowledge of this topic
 
-    
+
     
 
 
