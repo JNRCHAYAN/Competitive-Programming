@@ -3,10 +3,18 @@ using namespace std;
 
 int main()
 {
+	
+
 	//print anything in c++ program
 
 	cout<<"Hello world"<< " "<<"My name is chayan"<<endl;
 
+	// Take user input
+
+	int kk;
+
+	cin>>kk;
+	
 	// Vatiable
 
 	int a;
@@ -23,12 +31,11 @@ int main()
 	cout<< c << endl << b << endl << d << endl << f << endl;
 
 	// oprator
-
 	// Reminder
 
 	cout << 20 % 7 << endl;
 
-	//++ and -- Oprator
+	//++ and -- Oprator and more ....
 
 	int z=4;
 	z++;
@@ -36,4 +43,14 @@ int main()
 	--z;
 	++z;
 	cout<< z << endl;
+
+	// Ascii Table and per letter value
+
+
+	char t='b';
+	// Type casting
+	cout<< (int)t << endl;
+
+
+
 }
