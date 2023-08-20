@@ -42,8 +42,34 @@ int main()
     {
         cout<< i << endl;
     }
-    
 
+    // Nasted loop 
+    for (int i=1;i<5;i++)
+    {
+        for (int j=1;j<=i;j++)
+        {
+            cout<<"*";
+        }
+        cout<< endl;
+    }
+    // break and continue statement
+
+    for (int k=0; k<10; k++)
+    {
+        if(k==8)
+        {
+            break;
+        }
+        cout<<k<< endl;
+    }
+ for (int k=0; k<10; k++)
+    {
+        if(k==8)
+        {
+            continue;;
+        }
+        cout<<k<< endl;
+    }
 
 
 }
