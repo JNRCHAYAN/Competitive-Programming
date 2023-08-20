@@ -7,7 +7,7 @@ int main()
     int a=2;
     int b=4;
     // conditional satement 
-    cout<< (a==b);
+    cout<< (a==b)<< endl;
     // AND operator
     cout<< (a!=b && b!=a)<< endl;
     // OR operator
@@ -20,12 +20,30 @@ int main()
     }
     else if(a==0)
     {
-        cout<< "This number is zero";
+        cout<< "This number is zero"<< endl;
     }
     else
     {
         cout<< "Odd Number"<< endl;
     }
+
+    // Using LOOP in C++ programming
+    // While Loop
+    int n=1;
+    while (n<=5)
+    {
+        cout<< n<< endl;
+        n++;
+    }
+
+    // for loop
+
+    for (int i=1;i<5;i++)
+    {
+        cout<< i << endl;
+    }
+    
+
 
 
 }
